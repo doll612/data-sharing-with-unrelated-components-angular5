@@ -15,7 +15,7 @@ constructor(private sharedService: SharedService) {
   ngOnInit() {
     this.sharedService.currentMessage.subscribe(message => {
       this.list = [];
-      this.vesselVisitList = message
+      this.list = message
     })
     
     }
