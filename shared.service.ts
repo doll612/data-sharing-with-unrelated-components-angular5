@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 
 @Injectable()
-export class VesselVisitService {
+export class SharedService {
   constructor(private apiService: CommonApiService) { }
    
   updateVisitList =  new Array();
