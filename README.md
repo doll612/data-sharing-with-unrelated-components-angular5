@@ -18,3 +18,6 @@ Now if we create a function in any one of these components that changes the valu
 
 
 https://angularfirebase.com/lessons/sharing-data-between-angular-components-four-methods/#Unrelated-Components-Sharing-Data-with-a-Service
+
+Useful:
+if we have add form and listing data in seperate component, if we are adding data by add component, then list component i.e listing data refreshes automatically.
